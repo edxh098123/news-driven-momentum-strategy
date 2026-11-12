@@ -1,0 +1,354 @@
+{
+  "data/raw/crsp/daily_2010.parquet": [
+    {
+      "name": "permno",
+      "type": "int32"
+    },
+    {
+      "name": "hdrcusip",
+      "type": "string"
+    },
+    {
+      "name": "permco",
+      "type": "int32"
+    },
+    {
+      "name": "siccd",
+      "type": "int32"
+    },
+    {
+      "name": "nasdissuno",
+      "type": "int32"
+    },
+    {
+      "name": "yyyymmdd",
+      "type": "int32"
+    },
+    {
+      "name": "sharetype",
+      "type": "string"
+    },
+    {
+      "name": "securitytype",
+      "type": "string"
+    },
+    {
+      "name": "securitysubtype",
+      "type": "string"
+    },
+    {
+      "name": "usincflg",
+      "type": "string"
+    },
+    {
+      "name": "issuertype",
+      "type": "string"
+    },
+    {
+      "name": "primaryexch",
+      "type": "string"
+    },
+    {
+      "name": "conditionaltype",
+      "type": "string"
+    },
+    {
+      "name": "tradingstatusflg",
+      "type": "string"
+    },
+    {
+      "name": "dlycaldt",
+      "type": "date32[day]"
+    },
+    {
+      "name": "dlydelflg",
+      "type": "string"
+    },
+    {
+      "name": "dlyprc",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlyprcflg",
+      "type": "string"
+    },
+    {
+      "name": "dlycap",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlycapflg",
+      "type": "string"
+    },
+    {
+      "name": "dlyprevprc",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlyprevprcflg",
+      "type": "string"
+    },
+    {
+      "name": "dlyprevdt",
+      "type": "date32[day]"
+    },
+    {
+      "name": "dlyprevcap",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlyprevcapflg",
+      "type": "string"
+    },
+    {
+      "name": "dlyret",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlyretx",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlyreti",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlyretmissflg",
+      "type": "string"
+    },
+    {
+      "name": "dlyretdurflg",
+      "type": "string"
+    },
+    {
+      "name": "dlyorddivamt",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlynonorddivamt",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlyfacprc",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlydistretflg",
+      "type": "string"
+    },
+    {
+      "name": "dlyvol",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlyclose",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlylow",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlyhigh",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlybid",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlyask",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlyopen",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlynumtrd",
+      "type": "int32"
+    },
+    {
+      "name": "dlymmcnt",
+      "type": "int16"
+    },
+    {
+      "name": "dlyprcvol",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlycumfacpr",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "dlycumfacshr",
+      "type": "decimal128(38, 20)"
+    },
+    {
+      "name": "cusip",
+      "type": "string"
+    },
+    {
+      "name": "ticker",
+      "type": "string"
+    },
+    {
+      "name": "exchangetier",
+      "type": "string"
+    },
+    {
+      "name": "shrout",
+      "type": "int32"
+    }
+  ],
+  "data/raw/crsp/membership.parquet": [
+    {
+      "name": "permno",
+      "type": "int32"
+    },
+    {
+      "name": "indno",
+      "type": "int32"
+    },
+    {
+      "name": "mbrstartdt",
+      "type": "date32[day]"
+    },
+    {
+      "name": "mbrenddt",
+      "type": "date32[day]"
+    },
+    {
+      "name": "mbrflg",
+      "type": "string"
+    },
+    {
+      "name": "indfam",
+      "type": "int32"
+    }
+  ],
+  "data/raw/crsp/stocknames.parquet": [
+    {
+      "name": "permno",
+      "type": "int32"
+    },
+    {
+      "name": "permco",
+      "type": "int32"
+    },
+    {
+      "name": "namedt",
+      "type": "date32[day]"
+    },
+    {
+      "name": "nameenddt",
+      "type": "date32[day]"
+    },
+    {
+      "name": "securitybegdt",
+      "type": "date32[day]"
+    },
+    {
+      "name": "securityenddt",
+      "type": "date32[day]"
+    },
+    {
+      "name": "hdrcusip",
+      "type": "string"
+    },
+    {
+      "name": "hdrcusip9",
+      "type": "string"
+    },
+    {
+      "name": "cusip",
+      "type": "string"
+    },
+    {
+      "name": "cusip9",
+      "type": "string"
+    },
+    {
+      "name": "ticker",
+      "type": "string"
+    },
+    {
+      "name": "issuernm",
+      "type": "string"
+    },
+    {
+      "name": "primaryexch",
+      "type": "string"
+    },
+    {
+      "name": "conditionaltype",
+      "type": "string"
+    },
+    {
+      "name": "tradingstatusflg",
+      "type": "string"
+    },
+    {
+      "name": "shareclass",
+      "type": "string"
+    },
+    {
+      "name": "sharetype",
+      "type": "string"
+    },
+    {
+      "name": "securitytype",
+      "type": "string"
+    },
+    {
+      "name": "securitysubtype",
+      "type": "string"
+    },
+    {
+      "name": "usincflg",
+      "type": "string"
+    },
+    {
+      "name": "issuertype",
+      "type": "string"
+    },
+    {
+      "name": "siccd",
+      "type": "int32"
+    }
+  ],
+  "data/raw/news/ravenpack_mappings.parquet": [
+    {
+      "name": "rp_entity_id",
+      "type": "string"
+    },
+    {
+      "name": "entity_type",
+      "type": "string"
+    },
+    {
+      "name": "entity_name",
+      "type": "string"
+    },
+    {
+      "name": "range_start",
+      "type": "date32[day]"
+    },
+    {
+      "name": "range_end",
+      "type": "date32[day]"
+    },
+    {
+      "name": "ticker",
+      "type": "string"
+    },
+    {
+      "name": "cusip",
+      "type": "string"
+    },
+    {
+      "name": "isin",
+      "type": "string"
+    }
+  ]
+}

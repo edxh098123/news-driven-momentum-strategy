@@ -1,0 +1,15 @@
+strategy,scenario_name,date,permno,flag,duration,scenario,kind,assumed,assumed_return,valuation_date,cash_settlement_date,limitation,delistingdt,deldtprc,deldtprcflg,delactiontype,delstatustype,delreasontype,delpaymenttype,delret,delretmisstype,delnextdt,delnextprc,delamtdt,deldivamt
+price,strict,2022-04-11,90805,NA,DD,,observed_delisting_return,False,,,,,2022-04-08,24.43,TR,MER,FPAY,UNAV,STK,0.014327,NA,,,2022-04-11,24.78
+price,strict,2023-03-13,11786,DG,MR,,unresolved_delisting,False,,,,,2023-03-10,39.37,BA,GDR,VCL,FING,PRCF,,DG,2023-03-28,0.4,2023-03-28,0.0
+price,loss_30,2022-04-11,90805,NA,DD,-0.3,observed_delisting_return,False,,,,,2022-04-08,24.43,TR,MER,FPAY,UNAV,STK,0.014327,NA,,,2022-04-11,24.78
+price,loss_30,2023-03-13,11786,DG,MR,-0.3,assumed_delisting_settlement,True,-0.3,2023-03-13,2023-03-13,Assumed settlement at close; halt and borrow availability unverified,2023-03-10,39.37,BA,GDR,VCL,FING,PRCF,,DG,2023-03-28,0.4,2023-03-28,0.0
+price,loss_30,2023-03-13,90090,DG,MR,-0.3,assumed_delisting_settlement,True,-0.3,2023-03-13,2023-03-13,Assumed settlement at close; halt and borrow availability unverified,2023-03-10,70.0,TR,GDR,VCL,FING,PRCF,,DG,2023-03-28,0.13,2023-03-28,0.0
+price,loss_30,2024-07-08,21186,NA,DD,-0.3,observed_delisting_return,False,,,,,2024-07-05,51.51,TR,MER,FPAY,UNAV,CST,-0.00563,NA,,,2024-07-08,51.22
+price,loss_55,2022-04-11,90805,NA,DD,-0.55,observed_delisting_return,False,,,,,2022-04-08,24.43,TR,MER,FPAY,UNAV,STK,0.014327,NA,,,2022-04-11,24.78
+price,loss_55,2023-03-13,11786,DG,MR,-0.55,assumed_delisting_settlement,True,-0.55,2023-03-13,2023-03-13,Assumed settlement at close; halt and borrow availability unverified,2023-03-10,39.37,BA,GDR,VCL,FING,PRCF,,DG,2023-03-28,0.4,2023-03-28,0.0
+price,loss_55,2023-03-13,90090,DG,MR,-0.55,assumed_delisting_settlement,True,-0.55,2023-03-13,2023-03-13,Assumed settlement at close; halt and borrow availability unverified,2023-03-10,70.0,TR,GDR,VCL,FING,PRCF,,DG,2023-03-28,0.13,2023-03-28,0.0
+price,loss_55,2024-07-08,21186,NA,DD,-0.55,observed_delisting_return,False,,,,,2024-07-05,51.51,TR,MER,FPAY,UNAV,CST,-0.00563,NA,,,2024-07-08,51.22
+price,loss_100,2022-04-11,90805,NA,DD,-1.0,observed_delisting_return,False,,,,,2022-04-08,24.43,TR,MER,FPAY,UNAV,STK,0.014327,NA,,,2022-04-11,24.78
+price,loss_100,2023-03-13,11786,DG,MR,-1.0,assumed_delisting_settlement,True,-1.0,2023-03-13,2023-03-13,Assumed settlement at close; halt and borrow availability unverified,2023-03-10,39.37,BA,GDR,VCL,FING,PRCF,,DG,2023-03-28,0.4,2023-03-28,0.0
+price,loss_100,2023-03-13,90090,DG,MR,-1.0,assumed_delisting_settlement,True,-1.0,2023-03-13,2023-03-13,Assumed settlement at close; halt and borrow availability unverified,2023-03-10,70.0,TR,GDR,VCL,FING,PRCF,,DG,2023-03-28,0.13,2023-03-28,0.0
+price,loss_100,2024-07-08,21186,NA,DD,-1.0,observed_delisting_return,False,,,,,2024-07-05,51.51,TR,MER,FPAY,UNAV,CST,-0.00563,NA,,,2024-07-08,51.22

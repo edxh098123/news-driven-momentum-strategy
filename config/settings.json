@@ -1,0 +1,16 @@
+{
+  "start_date": "2010-01-01",
+  "end_date": "2025-12-31",
+  "wrds_user": "edxh",
+  "wrds_host": "wrds-pgdata.wharton.upenn.edu",
+  "wrds_port": 9737,
+  "database": "wrds",
+  "missing_returns": {
+    "max_stale_sessions": 10,
+    "terminal_loss_scenarios": [
+      -0.3,
+      -0.55,
+      -1.0
+    ]
+  }
+}

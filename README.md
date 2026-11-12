@@ -1,1 +1,0 @@
-# news-driven-momentum-strategy

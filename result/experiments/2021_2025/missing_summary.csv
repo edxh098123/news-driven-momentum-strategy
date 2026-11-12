@@ -1,0 +1,9 @@
+strategy,scenario_name,kind,count
+price,loss_100,assumed_delisting_settlement,2
+price,loss_100,observed_delisting_return,2
+price,loss_30,assumed_delisting_settlement,2
+price,loss_30,observed_delisting_return,2
+price,loss_55,assumed_delisting_settlement,2
+price,loss_55,observed_delisting_return,2
+price,strict,observed_delisting_return,1
+price,strict,unresolved_delisting,1

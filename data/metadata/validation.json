@@ -1,0 +1,21 @@
+{
+  "data/raw/crsp/daily_2010.parquet": {
+    "rows": 173840,
+    "first_date": "2010-01-04",
+    "last_date": "2010-12-31",
+    "duplicate_permno_dates": 0,
+    "permnos": 705
+  },
+  "data/raw/crsp/membership.parquet": {
+    "rows": 848,
+    "first_membership": "1925-12-31",
+    "last_membership": "2025-12-31",
+    "permnos": 837
+  },
+  "data/raw/crsp/stocknames.parquet": {
+    "rows": 1998
+  },
+  "data/raw/news/ravenpack_mappings.parquet": {
+    "rows": 806507
+  }
+}

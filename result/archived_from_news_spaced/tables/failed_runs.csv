@@ -1,0 +1,14 @@
+strategy,error
+price,"2023-03-13 missing held returns: [11786, 90090]"
+price_news_coverage,2015-05-12 missing held returns: [76744]
+price_10_daily,"2023-03-13 missing held returns: [11786, 90090]"
+price_10_monthly,"2023-03-13 missing held returns: [11786, 90090]"
+price_20_daily,2015-05-12 missing held returns: [76744]
+price_20_weekly,2015-05-12 missing held returns: [76744]
+price_20_monthly,2015-05-12 missing held returns: [76744]
+price_50_daily,2015-05-12 missing held returns: [76744]
+price_50_weekly,2015-05-12 missing held returns: [76744]
+price_50_monthly,2015-05-12 missing held returns: [76744]
+sentiment_20_weekly,2023-03-13 missing held returns: [90090]
+sentiment_50_weekly,2023-03-13 missing held returns: [90090]
+sentiment_50_monthly,2015-05-12 missing held returns: [76744]

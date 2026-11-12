@@ -1,0 +1,11 @@
+data/raw/
+data/processed/
+logs/
+*.pyc
+__pycache__/
+.venv/
+.env
+.pgpass
+
+*.parquet
+*.partial

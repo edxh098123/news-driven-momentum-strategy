@@ -1,0 +1,36 @@
+{
+  "start": "2021-01-01",
+  "end": "2025-12-31",
+  "warm_start": "2015-01-01",
+  "first_formation": "2020-12-31",
+  "elapsed_seconds": 57.19,
+  "wrds_query_count": 6,
+  "wrds_queries": [
+    {
+      "seconds": 0.038550125012989156,
+      "query": "select permno,mbrstartdt,mbrenddt from crsp_a_indexes.dsp500list_v2 where mbrstartdt <= %(end)s and "
+    },
+    {
+      "seconds": 14.523337334001553,
+      "query": "select d.permno,d.dlycaldt,d.dlyprc,d.dlyret,d.dlyretx,d.dlydelflg,d.tradingstatusflg,d.dlyretmissfl"
+    },
+    {
+      "seconds": 0.03254129199194722,
+      "query": "select permno,delistingdt,deldlydt,deldtprc,deldtprcflg,delactiontype,delstatustype,delreasontype,de"
+    },
+    {
+      "seconds": 0.03773199999704957,
+      "query": "select datadate,prccddiv from comp.idx_daily where gvkeyx='000003' and datadate between %(start)s an"
+    },
+    {
+      "seconds": 0.01715812498878222,
+      "query": "select date,rf from ff.factors_daily where date between %(start)s and %(end)s order by date"
+    },
+    {
+      "seconds": 0.010496874994714744,
+      "query": "select date,mktrf,smb,hml,rf from ff.factors_monthly where date between %(start)s and %(end)s order "
+    }
+  ],
+  "log_file": "/Users/edward/Desktop/news-driven/logs/monthly_long_only_20261112_001543.log",
+  "note": "Strict incomplete paths stop. Scenario returns are assumptions; factor vintage may be revised."
+}

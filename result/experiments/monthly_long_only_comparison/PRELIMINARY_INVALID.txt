@@ -1,0 +1,1 @@
+Preliminary run: invalid for the requested comparison because the initial signal was formed at the end of January 2021 instead of the end of December 2020, leaving January unnecessarily in cash. Retained for audit only. Use the later run_* subdirectory for the corrected experiment.

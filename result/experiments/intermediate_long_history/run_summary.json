@@ -1,0 +1,34 @@
+{
+  "start": "2010-01-01",
+  "end": "2020-12-31",
+  "elapsed_seconds": 44.79,
+  "wrds_query_count": 5,
+  "wrds_queries": [
+    {
+      "seconds": 0.0600022910075495,
+      "query": "select permno,mbrstartdt,mbrenddt from crsp_a_indexes.dsp500list_v2 where mbrstartdt <= %(end)s and "
+    },
+    {
+      "seconds": 18.718405459003407,
+      "query": "select d.permno,d.dlycaldt,d.dlyprc,d.dlyret,d.dlyretx,d.dlydelflg,d.tradingstatusflg,d.dlyretmissfl"
+    },
+    {
+      "seconds": 0.03856512499623932,
+      "query": "select permno,delistingdt,deldlydt,deldtprc,deldtprcflg,delactiontype,delstatustype,delreasontype,de"
+    },
+    {
+      "seconds": 0.04378545799409039,
+      "query": "select datadate,prccddiv from comp.idx_daily where gvkeyx='000003' and datadate between %(start)s an"
+    },
+    {
+      "seconds": 0.023432624991983175,
+      "query": "select date,rf from ff.factors_daily where date between %(start)s and %(end)s order by date"
+    }
+  ],
+  "log_file": "/Users/edward/Desktop/news-driven/logs/intermediate_history_20261112_010021.log",
+  "vol_target": "15% annualized, 63 prior sessions, minimum 42 complete, selected basket, no leverage, cash earns zero",
+  "strict": "no stale valuation or assumed delisting settlement",
+  "supplemental_membership_queries": 1,
+  "total_wrds_query_count": 6,
+  "benchmark_holdings": "daily historical constituent counts from supplementary membership query"
+}

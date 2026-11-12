@@ -1,0 +1,31 @@
+{
+  "start": "2010-01-01",
+  "end": "2020-12-31",
+  "elapsed_seconds": 67.57,
+  "wrds_query_count": 5,
+  "wrds_queries": [
+    {
+      "seconds": 0.05488179199164733,
+      "query": "select permno,mbrstartdt,mbrenddt from crsp_a_indexes.dsp500list_v2 where mbrstartdt <= %(end)s and "
+    },
+    {
+      "seconds": 33.46709550000378,
+      "query": "select d.permno,d.dlycaldt,d.dlyprc,d.dlyret,d.dlyretx,d.dlydelflg,d.tradingstatusflg,d.dlyretmissfl"
+    },
+    {
+      "seconds": 0.034173958003520966,
+      "query": "select permno,delistingdt,deldlydt,deldtprc,deldtprcflg,delactiontype,delstatustype,delreasontype,de"
+    },
+    {
+      "seconds": 0.05506016699655447,
+      "query": "select datadate,prccddiv from comp.idx_daily where gvkeyx='000003' and datadate between %(start)s an"
+    },
+    {
+      "seconds": 0.026987707999069244,
+      "query": "select date,rf from ff.factors_daily where date between %(start)s and %(end)s order by date"
+    }
+  ],
+  "log_file": "/Users/edward/Desktop/news-driven/logs/intermediate_history_20261112_010859.log",
+  "vol_target": "15% annualized, 63 prior sessions, minimum 42 complete, selected basket, no leverage, cash earns zero",
+  "strict": "temporary prior-mark valuation is provisional; P1 requires corporate action audit; no assumed delisting settlement"
+}

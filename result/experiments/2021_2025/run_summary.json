@@ -1,0 +1,124 @@
+{
+  "start": "2021-01-01",
+  "end": "2025-12-31",
+  "elapsed_seconds": 188.79,
+  "wrds_query_count": 28,
+  "wrds_queries": [
+    {
+      "seconds": 0.10931108398654032,
+      "query": "select permno,mbrstartdt,mbrenddt from crsp_a_indexes.dsp500list_v2 where mbrstartdt <= %(end)s and "
+    },
+    {
+      "seconds": 0.07358558398846071,
+      "query": "select permno,cusip,namedt,nameenddt from crsp.stocknames_v2 where namedt <= %(end)s and nameenddt >"
+    },
+    {
+      "seconds": 0.44151058299758006,
+      "query": "select rp_entity_id,cusip,range_start,range_end from ravenpack_common.wrds_rpa_company_mappings_hist"
+    },
+    {
+      "seconds": 13.152704375010217,
+      "query": "select d.permno,d.dlycaldt,d.dlyprc,d.dlyret,d.dlyretx,d.dlydelflg,d.tradingstatusflg,d.dlyretmissfl"
+    },
+    {
+      "seconds": 0.03423366700008046,
+      "query": "select permno,delistingdt,deldlydt,deldtprc,deldtprcflg,delactiontype,delstatustype,delreasontype,de"
+    },
+    {
+      "seconds": 0.04100825000205077,
+      "query": "select datadate,prccddiv from comp.idx_daily where gvkeyx='000003' and datadate between %(start)s an"
+    },
+    {
+      "seconds": 0.016454292010166682,
+      "query": "select date,rf from ff.factors_daily where date between %(start)s and %(end)s order by date"
+    },
+    {
+      "seconds": 0.7789369170059217,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 6.036011083997437,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 5.595023458998185,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 6.285318291003932,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 7.877263334012241,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 7.452828209003201,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 7.170324040998821,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 6.894249250006396,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 10.519103875005385,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 9.110202583004138,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 6.3862091670016525,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 6.376646250006161,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 5.9440645829890855,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 6.713423374996637,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 6.2737488340062555,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 6.230990790994838,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 7.007933375003631,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 6.478520291988389,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 6.53478170800372,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 5.88575737499923,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    },
+    {
+      "seconds": 5.859891959000379,
+      "query": "select timestamp_utc,rp_story_id,rp_story_event_index,rp_entity_id,event_sentiment_score,relevance,n"
+    }
+  ],
+  "slow_queries": 2,
+  "scenario_checkpoint_replays": 3,
+  "log_file": "/Users/edward/Desktop/news-driven/logs/experiment_2021_2025_20261111_230625.log",
+  "note": "Affected scenarios resume at the missing-return date from a saved in-memory portfolio checkpoint; inputs and signal caches are shared. Assumed delist settlement at close, no borrow availability data."
+}
